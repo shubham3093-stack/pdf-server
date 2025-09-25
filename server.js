@@ -3,7 +3,8 @@ const cors = require('cors');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
+
 
 // Enable CORS for all requests
 app.use(cors());
@@ -12,6 +13,7 @@ app.use(cors());
 app.use('/pdfs', express.static(path.join(__dirname, 'public')));
 
 // Start the server
-app.listen(PORT, () => {
-  console.log(`PDF server running at http://localhost:${PORT}/pdfs`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
+
