@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328309863955",
+    "project_id": "ndls-a6d14",
+    "storage_bucket": "ndls-a6d14.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328309863955:android:a88b559bd3b54bdee5b1e6",
+        "android_client_info": {
+          "package_name": "com.example.ndls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328309863955-19rn8j7264m4qmfa8u8c8annhb7427ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxt1jxDPQkmp6nHKG4IAuPLPucbRl44O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328309863955-19rn8j7264m4qmfa8u8c8annhb7427ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
